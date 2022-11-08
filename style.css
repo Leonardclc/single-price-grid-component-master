@@ -369,10 +369,10 @@ main {
 
 .card {
     background-color: white;
-    font-size: 16px;
+    font-size: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 700px;
+    width: 650px;
     height: 480px;
     border-radius: 12px;
 }
@@ -382,7 +382,7 @@ main {
     padding-left: 50px;
     padding-top: 15px;
     height: 160px;
-    padding-right: 100px;
+    padding-right: 60px;
     line-height: 25px;
 }
 
@@ -436,9 +436,10 @@ a {
     padding-top: 5px;
 }
 
-h2 {
+h1 {
     color: hsl(179, 62%, 43%);
     font-weight: 700;
+    font-size: 1.6rem;
 }
 
 .colored-title {
